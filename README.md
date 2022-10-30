@@ -6,16 +6,17 @@ is no set learning path - I will study whatever appeals to me at the time.
 
 Basic ideas for now:
 - Object-Oriented Programming (OOP);
+- Virtualenv;
 - Lambda functions;
-- List comprehension;staticmethod
+- List comprehension;
+- Itertools;
 - Useful functions (zip(), enumerate(), etc);
 - Generators and Decorators;
 - Automating tasks;
 - Exception handling;
 - Unit testing;
-- Working with Datetime;
 - Regular Expressions (RegEx);
-- Using os and sys;
+- Using os, sys, json, datetime;
 - File management;
 - Threading.
 
