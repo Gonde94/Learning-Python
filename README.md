@@ -17,6 +17,7 @@ Basic ideas for now:
 - Unit testing;
 - Regular Expressions (RegEx);
 - Using os, sys, json, datetime;
+- APIs
 - File management;
 - Threading.
 
