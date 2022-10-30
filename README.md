@@ -21,6 +21,11 @@ Basic ideas for now:
 - File management;
 - Threading.
 
+Libraries:
+- Pandas
+- NumPy
+- PyTorch
+
 Games:
 - Pub quiz;
 - Rock, Paper, Scissors;
