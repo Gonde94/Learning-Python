@@ -5,9 +5,9 @@ on topics I've been studying. In the future, the plan is the add more complex fi
 is no set learning path - I will study whatever appeals to me at the time. 
 
 Basic ideas for now:
-- Object-Oriented Programming (OOP);
+- Object-Oriented Programming (OOP); ✔️
 - Virtualenv;
-- Lambda functions;
+- Lambda functions; ✔️ 
 - List comprehension;
 - Itertools;
 - Useful functions (zip(), enumerate(), etc);
