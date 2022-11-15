@@ -10,7 +10,8 @@ Basic ideas for now:
 - Lambda functions; ✔️ 
 - List comprehension;
 - Itertools;
-- Useful functions (zip(), enumerate(), etc);
+- Useful functions (zip(), enumerate(), etc); ✔️
+- Virtualenv;
 - Generators and Decorators;
 - Automating tasks;
 - Exception handling;
