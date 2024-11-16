@@ -25,10 +25,7 @@ class Dictator(Leader):
             'Oratory': 0,
             'Military strategy': 0,
             'Political savvy': 0,
-            'Loyalty cultivation': 0,
-            'Persistence': 0,
-            'Resource manipulation': 0,
-            'Lasting impact': 0
+            'Loyalty cultivation': 0
         }
 
 

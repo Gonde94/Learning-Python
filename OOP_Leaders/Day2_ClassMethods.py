@@ -8,17 +8,7 @@ A static method expresses that the method is independent from the rest of the cl
 within the class for organisational purposes (but could still function if places outside the class).
 """
 
-class Leader:
-    """
-    Creates a leader.
-    """
-
-    def __init__(self, name, country):
-        self.name = name
-        self.country = country
-
-    def says(self, words):
-        return f"{self.name} says {words}"
+from Day1_OOP import Leader
 
 
 class Dictator(Leader):
@@ -35,10 +25,7 @@ class Dictator(Leader):
             'Oratory': 0,
             'Military strategy': 0,
             'Political savvy': 0,
-            'Loyalty cultivation': 0,
-            'Persistence': 0,
-            'Resource manipulation': 0,
-            'Lasting impact': 0
+            'Loyalty cultivation': 0
         }
 
     @staticmethod
@@ -47,6 +34,10 @@ class Dictator(Leader):
 
         score = years_in_power + (wars_fought * 2) + (enemies_killed * 0.5)
         return '{:,}'.format(max(score, 0))
+    
+    @classmethod
+    def amin(cls):
+        return cls("Idi Amin", "Uganda", 8)
     
 
 if __name__ == "__main__":
@@ -59,3 +50,6 @@ if __name__ == "__main__":
     print(Genghis.calculate_reputation(years_in_power=Genghis.years_in_power,
                                        wars_fought=50,
                                        enemies_killed=100_000))
+    
+    Amin = Dictator.amin()
+    print(Amin.name, Amin.country, Amin.years_in_power)
