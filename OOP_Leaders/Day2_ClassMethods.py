@@ -5,7 +5,7 @@ implementing the method.
 Class methods are bound to the class itself, not to instances of the class. 
 
 A static method expresses that the method is independent from the rest of the class. They are
-within the class for organisational purposes (but could still function if places outside the class).
+within the class for organisational purposes (but could still function if placed outside the class).
 """
 
 from Day1_OOP import Leader
