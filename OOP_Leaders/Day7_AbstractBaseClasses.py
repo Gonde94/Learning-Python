@@ -34,7 +34,7 @@ class Victory(ABC):
     # Abstract method should be the innermost decorator.
 
     @abstractmethod
-    def cast(self):
+    def winning_move(self):
         pass 
 
     @property
@@ -54,7 +54,8 @@ class Domination(Victory):
     def check_conditions(self) -> str:
         return ("Checking if all capitals have been taken from their players.")
 
-    def winning_move(self):
+    @property
+    def winning_move(self) -> str:
         return ("Capture the last player's capital city.")
 
 
@@ -66,7 +67,8 @@ class Science(Victory):
     def check_conditions(self) -> str:
         return ("Checking if player has built a spaceship.")
     
-    def cast(self):
+    @property
+    def winning_move(self) -> str:
         return ("Launch spaceship in 10 moves.")
 
 
@@ -82,3 +84,8 @@ if __name__ == "__main__":
                       method="Build and launch a spaceship.")
     print(science)
     print(science.difficulty)
+
+    domination = Domination(name="Domination",
+                            method="Capture every other player's capital city.")
+    print(domination.winning_move)
+    print(domination.check_conditions)
