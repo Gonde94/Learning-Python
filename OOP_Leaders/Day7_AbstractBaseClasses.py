@@ -4,14 +4,14 @@ Sometimes, simple inheritance is not enough.
 
 Abstract Base Classes are useful if a hierarchy of classes are involved. They:
 1) Let a parent class communicate that subclasses should have a certain structure.
-2) They allow classes to identify themselves as meeting those demanded requirements.
-3) They enforce that a subclass meets requirements, otherwise throwing an exception
+2) Allow classes to identify themselves as meeting those demanded requirements.
+3) Enforce that a subclass meets requirements, otherwise throwing an exception
 at instantiation time.
 
 An abstract method is one that has a declaration but not an implementation. This method
 is then overriden by the subclasses.
 
-Will implement an idea from CIV. Different types of "Victory" exist - domination,
+I will implement an idea taken from CIV. Different types of "Victory" exist - domination,
 scientific, cultural, diplomatic. So the Victory class can be an application for the
 abc module. 
 
