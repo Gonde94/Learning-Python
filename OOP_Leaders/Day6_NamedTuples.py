@@ -25,7 +25,6 @@ class RomanArmyMember(NamedTuple):
         return caesar
 
 
-
 if __name__ == "__main__":
 
     print(Dorothys_pet) # Pet(name='Toto', type='dog')
