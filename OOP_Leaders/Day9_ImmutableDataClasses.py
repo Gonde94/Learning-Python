@@ -6,7 +6,7 @@ For this, we have to set frozen=True.
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class SovietArmyMember():
+class SovietArmyMember:
     name: str
     birthyear: int
 
